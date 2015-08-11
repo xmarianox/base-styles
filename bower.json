@@ -4,7 +4,7 @@
   "authors": [
     "Mariano Molina xsin.crueldadx@gmail.com"
   ],
-  "description": "sass lib component",
+  "description": "SASS components kit for internal proyects",
   "main": "sass/main.scss",
   "keywords": [
     "sass",
@@ -12,5 +12,12 @@
     "mixins"
   ],
   "license": "MIT",
+  "ignore" : [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "homepage": "https://github.com/xsincrueldadx/base-styles"
 }

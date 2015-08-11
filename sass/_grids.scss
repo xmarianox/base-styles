@@ -1,0 +1,15 @@
+// _grids.scss
+
+[class*='col-'] {
+  float: left;
+  //padding: 1em;
+  width: 100%;
+  min-height: 1px;
+}
+
+// loop para generar las class col-
+@for $i from 1 through $grid-columns {
+	.col-#{$i} {
+	  width: 100% / $grid-columns * $i;
+	}
+}
