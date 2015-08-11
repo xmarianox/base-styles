@@ -1,0 +1,16 @@
+{
+  "name": "base-styles",
+  "version": "0.0.0",
+  "authors": [
+    "Mariano Molina xsin.crueldadx@gmail.com"
+  ],
+  "description": "sass lib component",
+  "main": "sass/main.scss",
+  "keywords": [
+    "sass",
+    "component",
+    "mixins"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xsincrueldadx/base-styles"
+}
